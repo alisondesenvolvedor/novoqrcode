@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sistema de Registro de Ponto</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Registro de Ponto</h1>
+        <div id="entrada">
+            <h2>Registro de Entrada</h2>
+            <video id="camera" playsinline></video>
+            <input type="email" id="inputEmail" placeholder="Digite seu email">
+            <button onclick="registrarEntrada()">Registrar Entrada</button>
+            <p id="entradaStatus"></p>
+        </div>
+        
+        <!-- Resto do código permanece igual -->
+    </div>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
